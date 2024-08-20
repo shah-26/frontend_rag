@@ -105,3 +105,25 @@ a {
     color-scheme: dark;
   }
 }
+
+.chat-div{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100vh;
+  /* height: 80vh; */
+  background-color: black;
+  color: white;
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top:5px;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: dodgerblue;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}
