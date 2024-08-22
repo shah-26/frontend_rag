@@ -127,3 +127,11 @@ input::file-selector-button {
   border: thin solid grey;
   border-radius: 3px;
 }
+
+.w-50{
+  width: 50%;
+}
+
+.border-left{
+  border-left: 3px solid black !important;
+}
